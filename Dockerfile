@@ -5,7 +5,7 @@ WORKDIR /usr/src/trump_dump
 
 COPY requirements.txt .
 
-RUN pip install -r requirements.txt
+RUN pip install --upgrade -r requirements.txt
 
 COPY * ./
 
