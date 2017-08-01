@@ -1,4 +1,7 @@
 *~
 \#*
 
+*.pkl
+*.pyc
+
 api_keys.json
